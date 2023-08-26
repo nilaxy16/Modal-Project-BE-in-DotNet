@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Modal_Project.props" />
+</Project>

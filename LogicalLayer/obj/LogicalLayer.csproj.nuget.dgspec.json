@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Angular\\BE\\Modal_Project\\LogicalLayer\\LogicalLayer.csproj": {}
+  },
+  "projects": {
+    "C:\\Angular\\BE\\Modal_Project\\DataAccess\\DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Angular\\BE\\Modal_Project\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "C:\\Angular\\BE\\Modal_Project\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Angular\\BE\\Modal_Project\\DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net70"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/optimo-v4/OPTIMO/_packaging/OptimoFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net70": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net70": {
+          "targetAlias": "net7.0"
+        }
+      }
+    },
+    "C:\\Angular\\BE\\Modal_Project\\LogicalLayer\\LogicalLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Angular\\BE\\Modal_Project\\LogicalLayer\\LogicalLayer.csproj",
+        "projectName": "LogicalLayer",
+        "projectPath": "C:\\Angular\\BE\\Modal_Project\\LogicalLayer\\LogicalLayer.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Angular\\BE\\Modal_Project\\LogicalLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net70"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/optimo-v4/OPTIMO/_packaging/OptimoFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net70": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Angular\\BE\\Modal_Project\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Angular\\BE\\Modal_Project\\DataAccess\\DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net70": {
+          "targetAlias": "net7.0"
+        }
+      }
+    }
+  }
+}
